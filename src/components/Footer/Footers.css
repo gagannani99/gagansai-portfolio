@@ -1,0 +1,13 @@
+.font-awsome{
+    font-size:3rem;
+    margin-bottom:3rem;
+    margin-left:2rem;
+    margin-top:1.5rem;
+}
+a{
+    color:white;
+}
+.fonts{
+    display:flex;
+    flex-wrap:wrap;
+}

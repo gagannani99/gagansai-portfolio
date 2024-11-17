@@ -1,0 +1,43 @@
+.main-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.fields-skills {
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.techList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.techItems {
+    list-style-type: none;
+    margin-left:0rem;
+    margin-right: 1rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    border: solid 1px white;
+    padding: 0.75rem 1rem;
+    border-radius: 1rem;
+}
+
+.linebreak {
+    border: none;
+    border-top: 2px solid white;
+    margin: 20px 0;
+}
+
+.field {
+    flex: 1 1 45%;
+    margin-top: 1.5rem;
+}

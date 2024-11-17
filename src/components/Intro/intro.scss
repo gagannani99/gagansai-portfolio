@@ -1,0 +1,64 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-top: 1rem
+}
+
+.bg {
+    position: absolute;
+    top: 0; /* Adjusted to cover from the top */
+    right: 0; /* Add left alignment to center the image */
+    z-index: -1;
+    object-fit: cover;
+    height: calc(100vh + 4rem); /* Adjust height to ensure full image visibility */
+    height: 100vh; /* Ensure it spans full width */
+}
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: felx;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 200;
+}
+.introName{
+    color: yellow;
+}
+.introPara{
+    font-size: medium;
+    font-weight: 200;
+}
+.btn{
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    font-size:18px;
+}
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1.6rem;
+}
+@media screen and (max-width:840px) {
+    .bg{
+        right: -10vw;
+    }
+    .introContent{
+        font-size:10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}

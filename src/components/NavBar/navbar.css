@@ -1,0 +1,89 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: rgb(30, 30, 30);
+  }
+  
+  .logo {
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+  }
+  
+  .desktopMenu {
+    display: flex;
+  }
+  
+  .desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .desktopMenuListItem:hover {
+    color: yellow;
+    border-bottom: 1px solid yellow;
+    font-size: larger;
+  }
+  
+  
+  .mobileMenuButton {
+    display: none;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  
+  .mobileMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5rem;
+    right: 1rem;
+    background-color: rgb(30, 30, 30);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 200px;
+    padding: 1rem;
+    z-index: 2;
+  }
+  
+  .mobileMenuListItem {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+  
+  .mobileMenuListItem:hover {
+    color: yellow;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .desktopMenu {
+      display: none;
+    }
+    
+    .mobileMenuButton {
+      display: block;
+    }
+  }
+  

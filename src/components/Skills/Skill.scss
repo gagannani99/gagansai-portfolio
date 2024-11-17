@@ -1,0 +1,25 @@
+.main-heading{
+    text-align:center;
+}
+.fields-skills{
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+.techList{
+    display: flex;
+    flex-direction: row;
+}
+.techItems{
+    list-style-type: none;
+    margin-right: 2rem;
+    margin-top:0.75rem;
+    border:solid 1px white;
+    padding: 0.75rem;
+    border-radius:1rem;
+}
+.linebreak{
+    color: white;
+}
