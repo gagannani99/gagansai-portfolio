@@ -1,5 +1,5 @@
 import './index.css';
-import Navbar from './components/NavBar/navbar';
+import Navbar from './components/NavBar/Navbar';
 import Introduction from './components/Intro/Introduction';
 import Skill from './components/Skills/Skill';
 import Project from './components/Projects/Project';
