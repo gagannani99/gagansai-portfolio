@@ -10,4 +10,8 @@
 }
 .about-para,.about-list{
     font-weight:200;
+    /*  */
+}
+.contentpara{
+    margin-top:5px;
 }
